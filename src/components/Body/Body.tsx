@@ -3,7 +3,6 @@ import SearchIcon from "@material-ui/icons/Search";
 import MicIcon from "@material-ui/icons/Mic";
 
 import "./Body.css";
-import { Input } from "@material-ui/core";
 
 export default function Body() {
   return (

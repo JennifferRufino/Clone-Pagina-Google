@@ -18,7 +18,7 @@ export default function Header() {
           </div>
         </div>
         <div className="col-4">
-          <ul>
+          <ul style={{ textAlign: "left" }}>
             {theme === "dark" ? (
               <WbSunnyIcon onClick={changeTheme} />
             ) : (
