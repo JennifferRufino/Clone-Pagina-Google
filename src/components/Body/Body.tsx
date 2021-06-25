@@ -4,6 +4,8 @@ import MicIcon from "@material-ui/icons/Mic";
 
 import "./Body.css";
 
+import { Input } from "@material-ui/core";
+
 export default function Body() {
   return (
     <div className="Body">
@@ -16,7 +18,7 @@ export default function Body() {
       </div>
       <div className="bodyInput">
         <SearchIcon />
-        <input />
+        <Input style={{ width: 550 }} disableUnderline />
         <MicIcon />
       </div>
     </div>
