@@ -1,0 +1,14 @@
+.bodyInput {
+  margin-top: 2%;
+  margin-left: 33%;
+  border: 1px solid #bdbdbd;
+  width: 650px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.bodyInput > Input {
+  border: none;
+  outline: none;
+  width: 570px;
+}

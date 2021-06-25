@@ -1,0 +1,21 @@
+.Header {
+  padding: 25px 15px;
+}
+
+.headerLeft {
+  display: flex;
+  flex-direction: row;
+}
+
+.headerLeft > p {
+  margin-left: 10px;
+}
+
+.headerRight {
+  display: flex;
+  flex-direction: row;
+}
+
+.headerRight > p {
+  margin-left: 10px;
+}
